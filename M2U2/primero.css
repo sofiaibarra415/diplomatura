@@ -1,0 +1,30 @@
+.contenedor{
+    background-color: #ffffff;
+    border: solid #000;
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+   height: 300px;
+   width: fit-content;
+   margin: auto;
+   align-items: center;
+ 
+}
+.item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+}
+.clase2 {
+background-color: red;
+}
+.clase3 {
+    background-color: blue;
+}
+.clase4 {
+    background-color: green;
+}

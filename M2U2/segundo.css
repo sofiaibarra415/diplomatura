@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: #ffffff;
+    border: solid #000;
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column;
+   width: 400px;
+   height: 400px;
+
+}
+.item {
+width: 200px;
+height: 200px;
+color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.clase2 {
+background-color: red;
+}
+.clase3 {
+    background-color: blue;
+}
+.clase4 {
+    background-color: green;
+}
