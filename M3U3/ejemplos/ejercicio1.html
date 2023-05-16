@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        distancia = parseInt(prompt('¿Cual es la distancia en metros que usted tiene que recorrer?', ''));
+
+        if (distancia <= 1000){
+            document.write('La distancia que debes hacer no supera los 1000 metros, es recomendable ir a pie.');
+        } 
+        else if (distancia>=1001 && distancia<=9999) {
+            document.write('Considerando la distancia que debes hacer, una buena idea podria ser ir en bicicleta.');
+        } 
+        else if (distancia>=10000 && distancia<=29999) {
+            document.write('Considerando la distancia que debes hacer, seria apropiado ir en colectivo.');
+        } 
+        else if (distancia>=30000 && distancia<=99999) {
+            document.write('Considerando la distancia que debes hacer, seria apropiado ir en auto.');
+        } 
+        else if (distancia>=100000) {
+            document.write('Son muchos metros! Transportate en avión.');
+        } 
+      
+    </script>
+
+</body>
+
+</html>
