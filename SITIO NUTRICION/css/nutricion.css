@@ -19,8 +19,7 @@ header h1 {
     font-style: italic;
     display: inline-block;
     margin-left: 10px;
-}
-
+}     
 nav {
     background-color: #f1889b;
     margin-bottom: 20px;
@@ -43,7 +42,7 @@ nav ul li a{
     text-align: center;
 }
 nav ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 footer{
     background-color: #fdb4bf;
@@ -129,9 +128,13 @@ line-height: 30px;
     box-sizing: border-box;
 }
 .persona img{
-    border-radius: 50%;
-    max-width: 60%;
+    max-width: 100%;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 25px;
+}
+.persona .diferente{
+margin-bottom: 30px;
+margin-top: 20px;
 }
 
 .persona h6{
@@ -146,6 +149,7 @@ line-height: 30px;
     font-size: 25px;
     margin-top: 5px;
     line-height: 25px;
+    background-color: #f99aaa;
 
 }
 .persona h6{
