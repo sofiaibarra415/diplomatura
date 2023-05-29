@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <h1 class="">Contador de caracteres</h1>
+    <div class="caja">
+        <textarea id="mensaje"></textarea>
+        <div id="contador"></div>
+    </div>
+</body>
+<style>
+.caja{
+    width: 500px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+</style>
+<script>
+    const mensaje = document.getElementById('mensaje');
+    const contador = document.getElementById('contador');
+    mensaje.addEventListener('input', function (e) {
+        const target = e.target;
+        const longitud = target.value.length;
+        contador.innerHTML = `${longitud} caracteres`;
+    });
+</script>
+
+</html>
